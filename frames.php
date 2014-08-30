@@ -53,6 +53,7 @@ $parse['meta-description'] = "univers dans lesquel vous construisez un empire!";
 $parse['meta-Expires'] = "never";
 $parse['meta-rating'] = "Tous public";
 $parse['meta-subject'] = "Xnova-legacies";
+$parse['title'] = $game_config["game_name"];
 
 
 $page = parsetemplate(gettemplate('frame'), $parse);
