@@ -1,4 +1,4 @@
 xNova-Returns
 =============
 
-nouvelle version xnova
+Nouvelle version Xnova
