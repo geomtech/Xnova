@@ -1,69 +1,45 @@
-<div id="main">
-<script type="text/javascript">
-var lastType = "";
-function changeAction(type) {
-	if (document.formular.Uni.value == '') {
-		alert('{log_univ}');
-	} else {
-		if(type == "login" && lastType == "") {
-			var url = "http://" + document.formular.Uni.value + "";
-			document.formular.action = url;
-		} else {
-			var url = "http://" + document.formular.Uni.value + "/reg.php";
-			document.formular.action = url;
-			document.formular.submit();
-		}
-	}
-}
-</script>
-<div id="login">
-<div id="login_input">
-<form name="formular" action="" method="post" onsubmit="changeAction('login');">
-<table width="400" border="0" cellpadding="0" cellspacing="0">
-<tbody>
-<tr style="vertical-align: top;">
-	<td style="padding-right: 4px;">
-		{User_name} <input name="username" value="" type="text">
-		{Password} <input name="password" value="" type="password">
-	</td>
-</tr><tr>
-	<td style="padding-right: 4px;">
-		{Remember_me} <input name="rememberme" type="checkbox"> <script type="text/javascript">document.formular.Uni.focus(); </script><input name="submit" value="{Login}" type="submit">
-	</td>
-</tr><tr>
-	<td style="padding-right: 4px;">
-		<a href="lostpassword.php">{PasswordLost}</a>
-	</td>
-</tr>
-</tbody>
-</table>
-</form>
-</div>
-</div>
-<div id="mainmenu" style="margin-top: 20px;">
-<a href="reg.php">{log_reg}</a>
-<a href="{forum_url}">Forum</a>
-<a href="contact.php">Contact</a>
-<a href="credit.php">{log_cred}</a>
-</div>
-<div id="rightmenu" class="rightmenu">
-<div id="title">{log_welcome} {servername}</div>
-<div id="content">
-<center>
-<div id="text1">
-<div style="text-align: left;"><strong>{servername}</strong> {log_desc} {servername}.
-</div>
-</div>
-<div id="register" class="bigbutton" onclick="document.location.href='reg.php';"><font color="#cc0000">{log_toreg}</font></div>
-<div id="text2">
-<div id="text3">
-<center><b><font color="#00cc00">{log_online}: </font>
-<font color="#c6c7c6">{online_users}</font> - <font color="#00cc00">{log_lastreg}: </font>
-<font color="#c6c7c6">{last_user}</font> - <font color="#00cc00">{log_numbreg}:</font> <font color="#c6c7c6">{users_amount}</font>
-</b></center>
-</div>
-</div>
-</center>
-</div>
-</div>
-</div>
+<html>
+	<head>
+		<title>Connexion - {title} </title>
+		<link rel="stylesheet" href="../../../css/styles.css" type="text/css">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	</head>
+	<header>
+		<div id="top-nav">
+			<center>
+				<a href="../../../login.php" class="bouton">Accueil</a>
+				<a href="#" class="bouton">Forum</a>
+				<a href="#" class="bouton">Contact</a>
+				<a href="#" class="bouton">Crédits</a>
+			</center>
+		</div>		
+	</header>
+	<body>		
+		<center>
+		<img src="../../../img/xnova.png" id="logo"/>
+			<div id="panel">
+				<h2>{servername}</h2>
+				</br>
+				<p><strong>{servername}</strong> est un jeu de stratégie gratuit</p>
+				<p>dans l'espace. Pour jouer, il suffit d'un navigateur internet.</p>
+				<p>Inscrivez-vous et découvrez le monde fantastique de <strong>{servername}</strong>.</p>
+				</br>
+				<a href="reg.php" class="reg">Jouer Maintenant !</a>
+			</div>
+		</center>
+		<center>
+		<form name="formular" action="" method="post" onsubmit="changeAction('login');">
+			<div id="connexion">
+				<h2>Connexion</h2>
+				<p>Pseudo</p> <input required name="username" value="" type="text" class="textbox">
+				<p>Mot de passe</p> <input required name="password" value="" type="password" class="textbox">
+				<p>Se rappeller de moi ?</p>	
+				<input type="checkbox" value="None" id="check" name="rememberme" />
+				</br>
+				</br>
+				<script type="text/javascript">document.formular.Uni.focus(); </script><input name="submit" value="Se connecter !" type="submit" class="btn-connect">
+			</div>
+			</form>
+		</center>
+	</body>
+</html>
