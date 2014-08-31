@@ -5,16 +5,16 @@ Nouvelle version Xnova
 
 Team d'Xnova Legacies
 =============
-   Fondateur / Programmeur : Raito
-   Chef Programmeur : Chlorel
-   Designer / Programmeur : e-Zobar
-   Webmaster: Flousedid
+      Fondateur / Programmeur : Raito
+      Chef Programmeur : Chlorel
+      Designer / Programmeur : e-Zobar
+      Webmaster: Flousedid
 
 Team d'Xnova Returns
 =============
-  Designer: GeomTech
-  Dévellopeurs: Mandalorien et GeomTech
-  Testeurs: CrafteurGaming et GeomTech
+    Designer: GeomTech
+    Dévellopeurs: Mandalorien et GeomTech
+    Testeurs: CrafteurGaming et GeomTech
 
 Wamp
 =============
