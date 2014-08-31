@@ -1,13 +1,13 @@
 <html>
 	<head>
 		<title>Connexion - {title} </title>
-		<link rel="stylesheet" href="../../../css/styles.css" type="text/css">
+		<link rel="stylesheet" href="Design/css/styles.css" type="text/css">
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	</head>
 	<header>
 		<div id="top-nav">
 			<center>
-				<a href="../../../login.php" class="bouton">Accueil</a>
+				<a href="login.php" class="bouton">Accueil</a>
 				<a href="#" class="bouton">Forum</a>
 				<a href="#" class="bouton">Contact</a>
 				<a href="#" class="bouton">Crédits</a>
@@ -16,7 +16,7 @@
 	</header>
 	<body>		
 		<center>
-		<img src="../../../img/xnova.png" id="logo"/>
+		<img src="Design/img/xnova.png" id="logo"/>
 			<div id="panel">
 				<h2>{servername}</h2>
 				</br>

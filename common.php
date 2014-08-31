@@ -35,7 +35,7 @@ ini_set('date.timezone','Europe/Paris'); # fuseau horaire de paris
 define('ROOT_PATH', realpath(dirname(__FILE__)) . DIRECTORY_SEPARATOR);
 define('PHPEXT', require 'extension.inc');
 
-define('VERSION', '2009.2.1');
+define('VERSION', '2014.0');
 
 $RequestUrl = substr($_SERVER['REQUEST_URI'], 0);
 $fragment = explode ("/",$RequestUrl);
@@ -73,8 +73,8 @@ $lang          = array();
 $IsUserChecked = false;
 
 define('DEFAULT_SKINPATH','skins/xnova/');
-define('TEMPLATE_DIR', realpath(ROOT_PATH . '/templates/'));
-define('TEMPLATE_NAME', 'OpenGame');
+define('TEMPLATE_DIR', realpath(ROOT_PATH . '/Vues/'));
+define('TEMPLATE_NAME', 'Fichiers');
 define('DEFAULT_LANG', 'fr');
 
 include(ROOT_PATH . 'includes/debug.class.'.PHPEXT);
