@@ -3,7 +3,6 @@ xNova-Returns
 
 Nouvelle version Xnova
 
-=============
 Xnova Legacies
 =============
    Fondateur / Programmeur : Raito
@@ -11,11 +10,12 @@ Xnova Legacies
     Designer / Programmeur : e-Zobar
     Webmaster: Flousedid
 
-=============
 Xnova Returns
 =============
   Designer: GeomTech
   Dévellopeurs: Mandalorien et GeomTech
+
+Wamp
 =============
 
 Version conseillée: (wampserver 2.2 et plus)
