@@ -158,8 +158,9 @@ h2 {
 	/* … et lorsque ce sera standardisé */
 	transition-property: all;
 	transition-duration: 1s;
-	margin-left: 250px;
-	margin-right: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 	padding: 10px 10px 10px 10px;
 }
 
@@ -192,8 +193,9 @@ h2 {
 	/* … et lorsque ce sera standardisé */
 	transition-property: all;
 	transition-duration: 1s;
-	margin-left: 250px;
-	margin-right: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 	padding: 10px 10px 10px 10px;
 }
 
