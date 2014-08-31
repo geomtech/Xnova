@@ -9,7 +9,8 @@ Xnova Legacies
    Fondateur / Programmeur : Raito
     Chef Programmeur : Chlorel
     Designer / Programmeur : e-Zobar
-    Webmaster : Flousedid
+    Webmaster: Flousedid
+
 =============
 Xnova Returns
 =============
