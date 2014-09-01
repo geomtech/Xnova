@@ -38,8 +38,8 @@ define('ROOT_PATH', dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR);
 define('PHPEXT', include ROOT_PATH . 'extension.inc');
 
 define('DEFAULT_SKINPATH', '../skins/xnova/');
-define('TEMPLATE_DIR', realpath(ROOT_PATH . '/templates/'));
-define('TEMPLATE_NAME', 'OpenGame');
+define('TEMPLATE_DIR', realpath(ROOT_PATH . '/Vues/'));
+define('TEMPLATE_NAME', 'Fichiers');
 define('DEFAULT_LANG', 'fr');
 $dpath = DEFAULT_SKINPATH;
 
