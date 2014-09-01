@@ -1,6 +1,6 @@
 /* *********************************************************
-/* ************ Ce fichier ‡ ÈtÈ crÈer par GeomTech ********
-/* ************ Veuillez ne pas supprimer les crÈdits ******
+/* ************ Ce fichier √† √©t√© cr√©er par GeomTech ********
+/* ************ Veuillez ne pas supprimer les cr√©dits ******
 /* ****************************************************** */
 
 * {
@@ -35,7 +35,7 @@ h2 {
 	top: 0;
 	left: 0;
 	z-index: 999;
-	/* OpacitÈ de la barre */
+	/* Opacit√© de la barre */
 	opacity: 0.7;
     filter:alpha(opacity=70);
     -moz-opacity:0.7;
@@ -140,7 +140,7 @@ h2 {
 	border-radius: 10px 10px 10px 10px;
 	-moz-border-radius:10px 10px 10px 10px;
 	-webkit-border-radius:10px 10px 10px 10px;
-	/* opacitÈ */
+	/* opacit√© */
 	filter               : alpha(opacity=90);
 	-moz-opacity         : 0.9;
 	-khtml-opacity       : 0.9;
@@ -149,13 +149,13 @@ h2 {
 	-moz-box-shadow : 0px 0px 5px #333; 
 	-webkit-box-shadow : 0px 0px 5px #333;
 	box-shadow : 0px 0px 5px #333;
-	/* Fonctionne dÈj‡ sur webkit */
+	/* Fonctionne d√©j√† sur webkit */
 	-webkit-transition-property: all;
 	-webkit-transition-duration: 2s;
-	/* BientÙt supportÈ par Firefox */
+	/* Bient√¥t support√© par Firefox */
 	-moz-transition-property: all;
 	-moz-transition-duration: 2s;
-	/* Ö et lorsque ce sera standardisÈ */
+	/* ‚Ä¶ et lorsque ce sera standardis√© */
 	transition-property: all;
 	transition-duration: 1s;
 	margin-left: auto;
@@ -175,7 +175,7 @@ h2 {
 	border-radius: 10px 10px 10px 10px;
 	-moz-border-radius:10px 10px 10px 10px;
 	-webkit-border-radius:10px 10px 10px 10px;
-	/* opacitÈ */
+	/* opacit√© */
 	filter               : alpha(opacity=90);
 	-moz-opacity         : 0.9;
 	-khtml-opacity       : 0.9;
@@ -184,13 +184,13 @@ h2 {
 	-moz-box-shadow : 0px 0px 5px #333; 
 	-webkit-box-shadow : 0px 0px 5px #333;
 	box-shadow : 0px 0px 5px #333;
-	/* Fonctionne dÈj‡ sur webkit */
+	/* Fonctionne d√©j√† sur webkit */
 	-webkit-transition-property: all;
 	-webkit-transition-duration: 2s;
-	/* BientÙt supportÈ par Firefox */
+	/* Bient√¥t support√© par Firefox */
 	-moz-transition-property: all;
 	-moz-transition-duration: 2s;
-	/* Ö et lorsque ce sera standardisÈ */
+	/* ‚Ä¶ et lorsque ce sera standardis√© */
 	transition-property: all;
 	transition-duration: 1s;
 	margin-left: auto;
@@ -297,7 +297,7 @@ h2 {
 	#connexion {
 		margin-top: 25px;
 		background: #111;
-		/* opacitÈ */
+		/* opacit√© */
 		filter               : alpha(opacity=90);
 		-moz-opacity         : 0.9;
 		-khtml-opacity       : 0.9;
@@ -306,13 +306,13 @@ h2 {
 		-moz-box-shadow : 0px 0px 5px #333; 
 		-webkit-box-shadow : 0px 0px 5px #333;
 		box-shadow : 0px 0px 5px #333;
-		/* Fonctionne dÈj‡ sur webkit */
+		/* Fonctionne d√©j√† sur webkit */
 		-webkit-transition-property: all;
 		-webkit-transition-duration: 2s;
-		/* BientÙt supportÈ par Firefox */
+		/* Bient√¥t support√© par Firefox */
 		-moz-transition-property: all;
 		-moz-transition-duration: 2s;
-		/* Ö et lorsque ce sera standardisÈ */
+		/* ‚Ä¶ et lorsque ce sera standardis√© */
 		transition-property: all;
 		transition-duration: 1s;
 		margin-left: auto;
@@ -324,7 +324,7 @@ h2 {
 	#panel {
 	margin-top: 50px;
 	background: #111;
-	/* opacitÈ */
+	/* opacit√© */
 	filter               : alpha(opacity=90);
 	-moz-opacity         : 0.9;
 	-khtml-opacity       : 0.9;
@@ -333,13 +333,13 @@ h2 {
 	-moz-box-shadow : 0px 0px 5px #333; 
 	-webkit-box-shadow : 0px 0px 5px #333;
 	box-shadow : 0px 0px 5px #333;
-	/* Fonctionne dÈj‡ sur webkit */
+	/* Fonctionne d√©j√† sur webkit */
 	-webkit-transition-property: all;
 	-webkit-transition-duration: 2s;
-	/* BientÙt supportÈ par Firefox */
+	/* Bient√¥t support√© par Firefox */
 	-moz-transition-property: all;
 	-moz-transition-duration: 2s;
-	/* Ö et lorsque ce sera standardisÈ */
+	/* ‚Ä¶ et lorsque ce sera standardis√© */
 	transition-property: all;
 	transition-duration: 1s;
 	margin-left: auto;

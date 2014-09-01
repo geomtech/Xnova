@@ -30,12 +30,12 @@
     
     <body>
 <h1>Bienvenue sur mon site !</h1>
-<p>Voici les derniËres news :</p>
+<p>Voici les derni√®res news :</p>
  
 <?php
 mysql_connect("localhost", "root", "");
 mysql_select_db("xnova");
-// On rÈcupËre les cinq derniËres news.
+// On r√©cup√®re les cinq derni√®res news.
 $retour = mysql_query('SELECT * FROM news ORDER BY id DESC LIMIT 0, 5');
 while ($donnees = mysql_fetch_array($retour))
 {
@@ -43,12 +43,12 @@ while ($donnees = mysql_fetch_array($retour))
 <div class="news">
     <h3>
         <?php echo $donnees['titre']; ?>
-        <em>le <?php echo date('d/m/Y ‡ H\hi', $donnees['timestamp']); ?></em>
+        <em>le <?php echo date('d/m/Y √† H\hi', $donnees['timestamp']); ?></em>
     </h3>
     
     <p>
     <?php
-    // On enlËve les Èventuels antislashs, PUIS on crÈe les entrÈes en HTML (<br />).
+    // On enl√®ve les √©ventuels antislashs, PUIS on cr√©e les entr√©es en HTML (<br />).
     $contenu = nl2br(stripslashes($donnees['contenu']));
     echo $contenu;
     ?>
