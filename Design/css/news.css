@@ -1,4 +1,17 @@
 /******* CSS :: NEWS ******/
+
+* 
+{
+	color:white;
+	font-family:arial;
+}
+
+body 
+{
+	background: #111;
+	background-image:url(../img/bg.jpg);
+}
+
 h1, h3
 {
 	text-align:center;
