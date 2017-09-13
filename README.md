@@ -1,4 +1,6 @@
-xNova-Returns
+xNova
 =============
 
-Nouvelle version Xnova
+TODO:
+* debug
+* mysql => pdo
