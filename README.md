@@ -1,6 +1,6 @@
 xNova-Returns
 =============
-
+(Repository servant d'archive + some modifications)
 Nouvelle version Xnova
 
 Team d'Xnova Legacies
@@ -9,12 +9,6 @@ Team d'Xnova Legacies
       Chef Programmeur : Chlorel
       Designer / Programmeur : e-Zobar
       Webmaster: Flousedid
-
-Team d'Xnova Returns
-=============
-    Designer: GeomTech
-    Dévellopeurs: Mandalorien et GeomTech
-    Testeurs: CrafteurGaming et GeomTech
 
 Wamp
 =============
